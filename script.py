@@ -25,7 +25,6 @@ def main():
             print("Desvio pradrão-> ", lista_devios)
 
             us = calculo_media(lista_devios)
-
             print(round(us**(1/2), 2))
         except ValueError:
             os.system('clear')
