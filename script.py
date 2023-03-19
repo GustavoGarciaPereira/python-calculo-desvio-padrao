@@ -15,7 +15,7 @@ def calculo_desvios(numeros, u):
 
 
 def variancia_desvio(us):
-    return round(us**(1/2), 2)
+    return round(us**(1/2), 3)
 
 
 def input_dado(numeros):
